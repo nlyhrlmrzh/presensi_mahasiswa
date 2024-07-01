@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class PertemuanController extends Controller
 {
-    public function pertemuan()
+    public function show()
     {
-        return view('pertemuan');
+        return view('pertemuan.show');
     }
 }

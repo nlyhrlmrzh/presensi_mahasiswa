@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class MatakuliahController extends Controller
 {
-    public function matakuliah()
+    public function show()
     {
-        return view('matakuliah');
+        return view('matakuliah.show');
     }
 }

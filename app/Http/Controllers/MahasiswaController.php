@@ -6,8 +6,12 @@ use Illuminate\Http\Request;
 
 class MahasiswaController extends Controller
 {
-    public function mahasiswa()
+    public function show()
     {
-        return view('mahasiswa');
+        return view('mahasiswa.show');
+    }
+    function add()
+    {
+        return view('mahasiswa.add');
     }
 }
